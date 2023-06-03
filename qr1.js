@@ -13,7 +13,7 @@ async function fetchText() {
 				qrcode.innerHTML = tables[t].children[1].children[0].cells[1].innerHTML;
         document.body.appendChild(qrcode)
 				setTimeout(() => {
-					new QRCode(document.getElementById(tables[t].children[1].children[0].cells[1].innerHTML.replaceAll(' ', '_')), `https://janinezielman.github.io/excel-database/year1#${tables[t].children[1].children[0].cells[1].innerHTML.replaceAll(' ', '_').slice(0, 10)}`);
+					new QRCode(document.getElementById(tables[t].children[1].children[0].cells[1].innerHTML.replaceAll(' ', '_')), `https://janinezielman.github.io/excel-database2/year1#${tables[t].children[1].children[0].cells[1].innerHTML.replaceAll(' ', '_').slice(0, 10)}`);
 				}, "1000")
       }
     }
