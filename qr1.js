@@ -1,5 +1,5 @@
 async function fetchText() {
-    let response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vQgeBFLmTRMPQdzc2CCh7_Z7ljVImEH0OkaJ-i1A0IEwGeAKKoVFFY_NRM3mJuZC3Ewzm6I3QGmJI6f/pubhtml');
+    let response = await fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vTVK8NNVl4Rwp7W0uHLfozjQzQh_24Kz6AriuVepErZHnoWgDEvOG6QWGoessgJnzlH_BHU-p22LwI6/pubhtml');
 
     if (response.status === 200) {
       let data = await response.text();
