@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'mono';
+  src: url('SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+
+.container, .wrapper{
+	display: none;
+}
+
+body{
+	display: flex;
+	font-family: "mono";
+	flex-wrap: wrap;
+}
+
+.qrcode{
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+}
+
+.qrcode img{
+	margin: 14px;
+}

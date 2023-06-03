@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'mono';
+  src: url('SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
+
+body{
+	font-family: "mono";
+	font-size: 18px;
+	/* background-color: #eee; */
+	background-color: rgb(50,255,100);
+}
+
+.year1{
+	background-color: rgb(50,255,100);
+}
+
+.year2{
+	background-color: rgb(255,163,0);
+}
+
+.year3{
+	background-color: rgb(117,163,255);
+}
+
+.year1 .header{
+	background-color: rgb(50,255,100);
+}
+
+.year2 .header{
+	background-color: rgb(255,163,0);
+}
+
+.year3 .header{
+	background-color: rgb(117,163,255);
+}
+
+.header{
+	display: flex;
+	position: sticky;
+	top: 0;
+}
+
+.container{
+	display: none;
+}
+
+.name{
+	font-size: 24px;
+}
+
+.hidden{
+	display: none;
+}
+
+.wrapper{
+	min-height: 100vh;
+	border-bottom: 1px solid black;
+	padding-bottom: 100px;
+}
+
+.name, .class{
+	display: inline-block;
+	padding-bottom: 14px;
+	line-height: 1;
+}
+
+.class{
+	width: 25%;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 24px;
+}
+
+.name{
+	font-size: 36px;
+	width: 75%;
+	padding-top: 14px;
+}
+
+.subject{
+	background-color: black;
+	color: white;
+	padding: 5px 14px;
+	border-radius: 25px;
+	width: auto;
+	font-size: 14px;
+	width: fit-content;
+	margin: 20px 0 0 auto;
+	/* margin-bottom: -24px; */
+}
+
+.title{
+	font-size: 22px;
+	line-height: 1.5;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/* font-weight: 500; */
+}
+
+.description{
+	padding-bottom: 24px;
+	border-bottom: 1px solid black;
+	line-height: 1.1;
+	font-sixe: 18px;
+	width: 100%;
+}
+
+.description div{
+	font-sixe: 18px!important;
+	width: 100%!important;
+}
